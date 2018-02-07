@@ -66,3 +66,27 @@ a:hover {
   display: inline-block;
   padding: 20px;
 }
+
+#sidebar {
+  background-color: #242424;
+  position: fixed;
+  width: 120px;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  text-align: center;
+}
+
+#sidebar ul {
+  list-style: none;
+  padding-left: 0px;
+}
+
+#sidebar li {
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+#page-content {
+  margin-left: 100px;
+}
